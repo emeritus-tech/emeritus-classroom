@@ -102,8 +102,12 @@ public class LoginWebViewController: UIViewController, ErrorViewController {
 
         // Lookup OAuth from mobile verify
         task?.cancel()
-        task = API().makeRequest(GetMobileVerifyRequest(domain: host)) { [weak self] (response, _, _) in performUIUpdate {
-            self?.mobileVerifyModel = response
+        task = API().makeRequest(GetMobileVerifyRequest(domain: "classroom.emeritus.org")) { [weak self] (response, _, _) in performUIUpdate {
+            self?.mobileVerifyModel = APIVerifyClient(
+              authorized: true,
+              base_url: URL(string: EnvironmentConstants.baseUrl),
+              client_id: EnvironmentConstants.clientId,
+              client_secret: EnvironmentConstants.clientSecret)
             self?.task = nil
             self?.loadLoginWebRequest()
         } }
@@ -263,7 +267,7 @@ extension LoginWebViewController: WKNavigationDelegate {
 
         let queryItems = components.queryItems
         if // wait for "https://canvas/login?code="
-            url.absoluteString.hasPrefix("https://canvas/login"),
+          url.absoluteString.hasPrefix(EnvironmentConstants.redirectUri),
             let code = queryItems?.first(where: { $0.name == "code" })?.value, !code.isEmpty,
             let mobileVerify = mobileVerifyModel, let baseURL = mobileVerify.base_url {
             task?.cancel()

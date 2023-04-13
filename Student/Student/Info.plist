@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Base URL</key>
+	<string>$(BASE_URL)</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -55,6 +57,10 @@
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Client ID</key>
+	<string>$(CLIENT_ID)</string>
+	<key>Client Secret</key>
+	<string>$(CLIENT_SECRET)</string>
 	<key>FirebaseAutomaticScreenReportingEnabled</key>
 	<false/>
 	<key>ITSAppUsesNonExemptEncryption</key>
@@ -98,6 +104,8 @@
 		<string>com.instructure.icanvas.watchApp</string>
 		<string>com.instructure.siri.shortcut.getgrades</string>
 	</array>
+	<key>Redirect URI</key>
+	<string>$(REDIRECT_URI)</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Frameworks/Core.framework/lato_italic.ttf</string>
