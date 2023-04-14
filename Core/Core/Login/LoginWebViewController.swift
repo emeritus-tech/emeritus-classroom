@@ -92,7 +92,7 @@ public class LoginWebViewController: UIViewController, ErrorViewController {
         view.backgroundColor = .backgroundLightest
         setupNavigateBackInWebViewToolbar()
         setupWebView()
-        setupProgressView()
+//        setupProgressView()
         setupIndeterminateLoadingIndicator()
 
         // Manual OAuth provided mobileVerifyModel
@@ -122,6 +122,10 @@ public class LoginWebViewController: UIViewController, ErrorViewController {
     public override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.setToolbarHidden(true, animated: true)
+    }
+    
+    public override func viewDidLayoutSubviews() {
+      self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
 
     // MARK: - Private Methods
