@@ -1,13 +1,13 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
-      "filename" : "student-logomark.pdf"
+      "filename" : "7_Emeritus_E_RGB-Web_Logo-02 (1).png",
+      "idiom" : "universal"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   },
   "properties" : {
     "preserves-vector-representation" : true
