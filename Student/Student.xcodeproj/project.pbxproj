@@ -221,6 +221,10 @@
 		EB3ECFCA26375AF100289506 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3ECFC926375AF100289506 /* SideMenuUITests.swift */; };
 		F1FDF738C22DCB5A94323B15 /* Pods_defaults_Student.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB0F553F9954BEE58A730D /* Pods_defaults_Student.framework */; };
 		FD59965A29E8503B009EFD80 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59965929E8503B009EFD80 /* APIKeys.swift */; };
+		FDD5FA9229EDA2B100CC3FC1 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9129EDA2B100CC3FC1 /* Core.framework */; };
+		FDD5FA9329EDA2B100CC3FC1 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9129EDA2B100CC3FC1 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FDD5FA9529EDA2E100CC3FC1 /* CanvasCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */; };
+		FDD5FA9629EDA2E100CC3FC1 /* CanvasCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,6 +285,8 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7DBF920322690E9400710D0F /* CanvasCore.framework in Embed Frameworks */,
+				FDD5FA9629EDA2E100CC3FC1 /* CanvasCore.framework in Embed Frameworks */,
+				FDD5FA9329EDA2B100CC3FC1 /* Core.framework in Embed Frameworks */,
 				7D1D7E06213743D300F7CCFE /* Core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -814,6 +820,8 @@
 		EC9D739AAC5FF4C6AAF4F8A7 /* Pods_needs_pspdfkit_StudentE2ETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_needs_pspdfkit_StudentE2ETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A705E826B362C3490B4183 /* Pods-defaults-common_tests-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-common_tests-CanvasTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-defaults-common_tests-CanvasTests/Pods-defaults-common_tests-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD59965929E8503B009EFD80 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FDD5FA9129EDA2B100CC3FC1 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CanvasCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -828,6 +836,8 @@
 				7D1D7E05213743D300F7CCFE /* Core.framework in Frameworks */,
 				2C67B0CC1E01F06800DDD191 /* CoreMedia.framework in Frameworks */,
 				2C67B0C81E01F05F00DDD191 /* CoreTelephony.framework in Frameworks */,
+				FDD5FA9229EDA2B100CC3FC1 /* Core.framework in Frameworks */,
+				FDD5FA9529EDA2E100CC3FC1 /* CanvasCore.framework in Frameworks */,
 				2C67B0CA1E01F06300DDD191 /* CoreText.framework in Frameworks */,
 				2C67B0CE1E01F07200DDD191 /* CoreVideo.framework in Frameworks */,
 				49A04E7D1CF653050051E1E7 /* libc++.tbd in Frameworks */,
@@ -978,6 +988,8 @@
 		5B0FCCDFB07A88D993D5871D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */,
+				FDD5FA9129EDA2B100CC3FC1 /* Core.framework */,
 				CF4A448D254700D600F76207 /* Core.framework */,
 				D9FD900F2546CB4C00C6842B /* Core.framework */,
 				2C67B0C51E01F05A00DDD191 /* AssetsLibrary.framework */,
@@ -2560,7 +2572,6 @@
 		};
 		49383CF11F848FCD009C8F8E /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -2571,7 +2582,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\ncd ../rn/Teacher\n./node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "
+";
 		};
 		4E96919647DDFF9D76D4104C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
