@@ -19,42 +19,42 @@
 import CanvasCore
 import Core
 
-//extension StudentAppDelegate: RCTBridgeDelegate {
-//    @objc func prepareReactNative() {
-//        excludeHelmInBranding()
-//        NativeLoginManager.shared().delegate = self
-//        HelmManager.shared.bridge = RCTBridge(delegate: self, launchOptions: nil)
-//        HelmManager.shared.onReactLoginComplete = {
-//            guard let window = self.window else { return }
-//            let controller = StudentTabBarController()
-//            controller.view.layoutIfNeeded()
-//            UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromRight, animations: {
-//                window.rootViewController = controller
-//            }, completion: { _ in
-//                self.environment.startupDidComplete()
-//                NotificationManager.shared.registerForRemoteNotifications(application: .shared)
-//            })
-//        }
-//
-//        HelmManager.shared.onReactReload = {
-//            guard self.window?.rootViewController is StudentTabBarController else { return }
-//            guard let session = LoginSession.mostRecent else {
-//                self.changeUser()
-//                return
-//            }
-//            self.setup(session: session)
-//        }
-//    }
-//
-//    @objc func excludeHelmInBranding() {
-//        let appearance = UINavigationBar.appearance(whenContainedInInstancesOf: [HelmNavigationController.self])
-//        appearance.barTintColor = nil
-//        appearance.tintColor = nil
-//        appearance.titleTextAttributes = nil
-//    }
-//
-//    func sourceURL(for bridge: RCTBridge!) -> URL! {
-//        let url = RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index.ios", fallbackResource: nil)
-//        return url
-//    }
-//}
+extension StudentAppDelegate: RCTBridgeDelegate {
+    @objc func prepareReactNative() {
+        excludeHelmInBranding()
+        NativeLoginManager.shared().delegate = self
+        HelmManager.shared.bridge = RCTBridge(delegate: self, launchOptions: nil)
+        HelmManager.shared.onReactLoginComplete = {
+            guard let window = self.window else { return }
+            let controller = StudentTabBarController()
+            controller.view.layoutIfNeeded()
+            UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromRight, animations: {
+                window.rootViewController = controller
+            }, completion: { _ in
+                self.environment.startupDidComplete()
+                NotificationManager.shared.registerForRemoteNotifications(application: .shared)
+            })
+        }
+
+        HelmManager.shared.onReactReload = {
+            guard self.window?.rootViewController is StudentTabBarController else { return }
+            guard let session = LoginSession.mostRecent else {
+                self.changeUser()
+                return
+            }
+            self.setup(session: session)
+        }
+    }
+
+    @objc func excludeHelmInBranding() {
+        let appearance = UINavigationBar.appearance(whenContainedInInstancesOf: [HelmNavigationController.self])
+        appearance.barTintColor = nil
+        appearance.tintColor = nil
+        appearance.titleTextAttributes = nil
+    }
+
+    func sourceURL(for bridge: RCTBridge!) -> URL! {
+        let url = RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index.ios", fallbackResource: nil)
+        return url
+    }
+}

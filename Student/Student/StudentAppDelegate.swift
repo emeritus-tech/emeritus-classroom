@@ -51,7 +51,7 @@ class StudentAppDelegate: UIResponder, UIApplicationDelegate, AppEnvironmentDele
         #endif
 
         DocViewerViewController.setup(.studentPSPDFKitLicense)
-       // prepareReactNative()
+        prepareReactNative()
         setupDefaultErrorHandling()
         setupPageViewLogging()
         TabBarBadgeCounts.application = UIApplication.shared
