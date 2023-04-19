@@ -112,7 +112,6 @@
 		7DCF0FCD22F8A8D7000AACCE /* TextSubmissionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0322F8A050000AACCE /* TextSubmissionViewController.storyboard */; };
 		7DCF0FCE22F8A8D7000AACCE /* TextSubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0422F8A050000AACCE /* TextSubmissionViewController.swift */; };
 		7DCF0FCF22F8A8D7000AACCE /* UrlSubmissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0622F8A050000AACCE /* UrlSubmissionViewController.swift */; };
-		7DCF0FD022F8A8D7000AACCE /* UrlSubmissionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0722F8A050000AACCE /* UrlSubmissionViewController.storyboard */; };
 		7DCF0FD122F8A8D7000AACCE /* UrlSubmissionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0822F8A050000AACCE /* UrlSubmissionPresenter.swift */; };
 		7DE1161222F8AB5C005BFE98 /* AssignmentDetailsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF0F0D22F8A096000AACCE /* AssignmentDetailsPresenterTests.swift */; };
 		7DE1161522F8AB5C005BFE98 /* CourseNavigationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF0F1322F8A096000AACCE /* CourseNavigationPresenterTests.swift */; };
@@ -221,6 +220,7 @@
 		EB3ECFCA26375AF100289506 /* SideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3ECFC926375AF100289506 /* SideMenuUITests.swift */; };
 		F1FDF738C22DCB5A94323B15 /* Pods_defaults_Student.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CB0F553F9954BEE58A730D /* Pods_defaults_Student.framework */; };
 		FD59965A29E8503B009EFD80 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59965929E8503B009EFD80 /* APIKeys.swift */; };
+		FDB804CD29F058F700834C68 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = FDB804CC29F058F700834C68 /* main.jsbundle */; };
 		FDD5FA9229EDA2B100CC3FC1 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9129EDA2B100CC3FC1 /* Core.framework */; };
 		FDD5FA9329EDA2B100CC3FC1 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9129EDA2B100CC3FC1 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FDD5FA9529EDA2E100CC3FC1 /* CanvasCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */; };
@@ -820,6 +820,7 @@
 		EC9D739AAC5FF4C6AAF4F8A7 /* Pods_needs_pspdfkit_StudentE2ETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_needs_pspdfkit_StudentE2ETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A705E826B362C3490B4183 /* Pods-defaults-common_tests-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-common_tests-CanvasTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-defaults-common_tests-CanvasTests/Pods-defaults-common_tests-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD59965929E8503B009EFD80 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FDB804CC29F058F700834C68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		FDD5FA9129EDA2B100CC3FC1 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD5FA9429EDA2E100CC3FC1 /* CanvasCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CanvasCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -921,6 +922,7 @@
 		4927046A1CF4AF7100C631C6 = {
 			isa = PBXGroup;
 			children = (
+				FDB804CC29F058F700834C68 /* main.jsbundle */,
 				2C8E356D20939C2D0071ED94 /* Settings.bundle */,
 				492704751CF4AF7100C631C6 /* Student */,
 				7DCF0F3922F8A096000AACCE /* StudentUnitTests */,
@@ -2324,10 +2326,10 @@
 				2C8E356E20939C2D0071ED94 /* Settings.bundle in Resources */,
 				7DCF0FAE22F8A8D7000AACCE /* RubricCollectionViewCell.xib in Resources */,
 				7DCF0FC322F8A8D7000AACCE /* SubmissionDetailsViewController.storyboard in Resources */,
-				7DCF0FD022F8A8D7000AACCE /* UrlSubmissionViewController.storyboard in Resources */,
 				2CE205B820EBF690002A6A64 /* GoogleService-Info.plist in Resources */,
 				7DCF0FB522F8A8D7000AACCE /* SubmissionCommentFileView.xib in Resources */,
 				7DCF0FAF22F8A8D7000AACCE /* RubricViewController.storyboard in Resources */,
+				FDB804CD29F058F700834C68 /* main.jsbundle in Resources */,
 				B5E212D31D88856B009D8C07 /* Localizable.strings in Resources */,
 				7DB3C84024AA613B00B85D35 /* CalendarEventDetailsViewController.storyboard in Resources */,
 				7DCF0FB822F8A8D7000AACCE /* SubmissionCommentsViewController.storyboard in Resources */,
@@ -2582,7 +2584,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\ncd ../rn/Teacher\n./node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "
+";
 		};
 		4E96919647DDFF9D76D4104C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
