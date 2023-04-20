@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -1495,7 +1495,6 @@
 		042EF796221BCF7130411ECF /* ModuleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleListViewController.swift; sourceTree = "<group>"; };
 		0484E4E4398902F6B77B8C7A /* AssignmentPickerListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentPickerListResponse.swift; sourceTree = "<group>"; };
 		048D69C7DD4F103ED4D1F485 /* DocViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewer.swift; sourceTree = "<group>"; };
-		0493EEBEC95B5CA3C1E1274C /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "sv-instk12"; path = "sv-instk12.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		04A8ECBC001884D68F55F688 /* TitleSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSubtitleView.swift; sourceTree = "<group>"; };
 		04DE952006D3854D357DA90E /* GradeListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GradeListViewController.storyboard; sourceTree = "<group>"; };
 		04EB1250961C1FBD368B931E /* APICommentLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICommentLibraryTests.swift; sourceTree = "<group>"; };
@@ -1537,7 +1536,6 @@
 		0B06A2D9A9EE66CA8A535524 /* ContextCardSubmissionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextCardSubmissionsView.swift; sourceTree = "<group>"; };
 		0B34332AA1629022F20FBEA6 /* CourseListItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListItemTests.swift; sourceTree = "<group>"; };
 		0B48DB92B10494DDEA7D40FC /* GradesPanda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesPanda.swift; sourceTree = "<group>"; };
-		0B587F17DC1D11ED7046D644 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		0B84DDDE5339F2C049667A78 /* TabFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFilterTests.swift; sourceTree = "<group>"; };
 		0C045FFC7C7D5659187E841A /* ListSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionHeader.swift; sourceTree = "<group>"; };
 		0C1305A983D78809F0A7A61E /* CourseSettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSettingsViewModelTests.swift; sourceTree = "<group>"; };
@@ -1621,7 +1619,6 @@
 		17D98154420E1BE5C413EB19 /* URLResponseExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLResponseExtensionsTests.swift; sourceTree = "<group>"; };
 		1824DDDCF5087692F6013995 /* SplitViewModeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewModeObserver.swift; sourceTree = "<group>"; };
 		1826A6111A2B1B3D7F6FE0DB /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
-		186F3214E69EF956B959DAAC /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		18785909A08A3AD7A21ECF18 /* AttachmentCopyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCopyService.swift; sourceTree = "<group>"; };
 		188104EDF335248D5D9A8701 /* GetCustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomColors.swift; sourceTree = "<group>"; };
 		18F45AAB28BE1C520EFE0C00 /* CircleRefreshControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRefreshControlTests.swift; sourceTree = "<group>"; };
@@ -1635,7 +1632,6 @@
 		19BC00D7F039AF248F069F31 /* FileProgressListViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProgressListViewModelProtocol.swift; sourceTree = "<group>"; };
 		19EB034D3DEE9D7A8401F94E /* en-CY */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-CY"; path = "en-CY.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		19EBE5514C1C3CC11D555832 /* FilePreviewProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePreviewProviderTests.swift; sourceTree = "<group>"; };
-		19F91CA435FAD2EDC26B98A8 /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		1A111D6E47F3BBD99C72B6E1 /* FileDetailsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailsViewControllerTests.swift; sourceTree = "<group>"; };
 		1A2B36ECA65D3C45F7DE5084 /* PageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDetailsViewController.swift; sourceTree = "<group>"; };
 		1A3003E41696A93E29556594 /* PeopleListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PeopleListViewController.storyboard; sourceTree = "<group>"; };
@@ -1749,7 +1745,6 @@
 		2B153CCF76305A1958594FD6 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		2B156BD7791F18BFCDBCA2DC /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		2B2F90252397DCD8B3616EFA /* en-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-CA"; path = "en-CA.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
-		2B342F7CA8559578FE625713 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/Main.strings"; sourceTree = "<group>"; };
 		2BF2CF8A68DE5F7E78EF2205 /* CourseListInteractorLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListInteractorLive.swift; sourceTree = "<group>"; };
 		2C09B942D912B08EF2F60F07 /* APIDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDateTests.swift; sourceTree = "<group>"; };
 		2C4AC59B0D17F0033EC46B83 /* HelmNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelmNavigationController.swift; sourceTree = "<group>"; };
@@ -1944,13 +1939,11 @@
 		4901C45D3489C29617DA4916 /* FolderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderTests.swift; sourceTree = "<group>"; };
 		4913D9F793E36394F751B1C4 /* APIActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIActivityTests.swift; sourceTree = "<group>"; };
 		496B2DC6DB13782096ED7BD1 /* GradeSubmission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeSubmission.swift; sourceTree = "<group>"; };
-		49759280291893433481DF43 /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/Main.strings"; sourceTree = "<group>"; };
 		499410DFE2D8947CA9CB3019 /* GetQuizSubmissionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetQuizSubmissionTests.swift; sourceTree = "<group>"; };
 		49B8B46D319AC624135F694E /* LTIViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LTIViewController.storyboard; sourceTree = "<group>"; };
 		49CB7A526F65072C97C9AB15 /* PlannerListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlannerListViewController.storyboard; sourceTree = "<group>"; };
 		49D611D813F394E856955616 /* GetInboxMessageListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetInboxMessageListTests.swift; sourceTree = "<group>"; };
 		49EF114D2A9D68AB793A9090 /* FileProgressListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProgressListViewModelTests.swift; sourceTree = "<group>"; };
-		4A0E5276888D4098DA61AF12 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4A6786AF76279D683C62807F /* GroupedSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedSectionFooterView.swift; sourceTree = "<group>"; };
 		4AB08CBC5828620388B08E51 /* GetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPage.swift; sourceTree = "<group>"; };
 		4AF583A8692F4FE927DC86B5 /* LogEventListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogEventListViewController.storyboard; sourceTree = "<group>"; };
@@ -1964,12 +1957,11 @@
 		4BD5DD42D6197C30DAC5415E /* AssignmentAssigneePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentAssigneePicker.swift; sourceTree = "<group>"; };
 		4BF8139D888212DC95299155 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4BF91515A5A28F35FBD75E03 /* GetObservedStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetObservedStudents.swift; sourceTree = "<group>"; };
-		4C02C87B4FD4AD4D7489EE6D /* TestImage.svg */ = {isa = PBXFileReference; path = TestImage.svg; sourceTree = "<group>"; };
+		4C02C87B4FD4AD4D7489EE6D /* TestImage.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestImage.svg; sourceTree = "<group>"; };
 		4C11E387DD144E7B7A7D7405 /* DateSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSection.swift; sourceTree = "<group>"; };
 		4C310E09D98CD58CE1C3D781 /* AssignmentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentListViewModel.swift; sourceTree = "<group>"; };
 		4C752E0B19740ED52EDFF264 /* CoursePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursePickerViewModel.swift; sourceTree = "<group>"; };
 		4CA163983762B396B680B808 /* PageViewEventRequestManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewEventRequestManagerTests.swift; sourceTree = "<group>"; };
-		4CE169C6808A11C89C825E2E /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/Main.strings"; sourceTree = "<group>"; };
 		4D163E504E7D08BC71EFA875 /* BackgroundSessionCompletionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSessionCompletionTests.swift; sourceTree = "<group>"; };
 		4D196EEA4A84A622D64A9DBF /* DiscussionReplyViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DiscussionReplyViewController.storyboard; sourceTree = "<group>"; };
 		4D8F68F1482BC9797395B3D4 /* UIButtonExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensionTests.swift; sourceTree = "<group>"; };
@@ -2065,7 +2057,6 @@
 		5C4545E182E2F403CB39CAFC /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		5C79DD83EC46C1780A24D067 /* ObserverAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverAlertTests.swift; sourceTree = "<group>"; };
 		5C7C7A3970DE5AC8FC052E4A /* APITodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITodoTests.swift; sourceTree = "<group>"; };
-		5C92A9AFC38D145B1586A574 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		5CB0D198683A3A51EB0FAC6A /* OutputStreamExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputStreamExtensions.swift; sourceTree = "<group>"; };
 		5CC649E9E52DE4E04054DADF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5D10762654AACBA65EE5CFE4 /* mi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mi; path = mi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -2154,7 +2145,6 @@
 		69372FB53A07816565DD6E3C /* DateExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionsTests.swift; sourceTree = "<group>"; };
 		6947DDE7E7694FBEBD5A9CD1 /* RubricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubricTests.swift; sourceTree = "<group>"; };
 		6949F61C6EB064ADFC413B4F /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6957684CA89E8A9834EF1978 /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		695FEAC8580CB8954EA8ACB2 /* TabName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabName.swift; sourceTree = "<group>"; };
 		69785420C99FD6DC939D24A6 /* StudentViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewCellViewModel.swift; sourceTree = "<group>"; };
 		6985A169550DB5407617B325 /* K5ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5ScheduleViewModel.swift; sourceTree = "<group>"; };
@@ -2172,7 +2162,6 @@
 		6BC831CC597D3B443819AFFB /* TabVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabVisibility.swift; sourceTree = "<group>"; };
 		6BE68133F17600C04A7739EE /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Main.strings; sourceTree = "<group>"; };
 		6C503781EE15584ADFA9E9CB /* DashboardInvitationsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInvitationsViewModelTests.swift; sourceTree = "<group>"; };
-		6C5597E039A9ED8337294E82 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "nb-instk12"; path = "nb-instk12.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		6C977681048E778C187FD119 /* APIAssignmentPickerListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAssignmentPickerListItem.swift; sourceTree = "<group>"; };
 		6C9A855BCC6D496F9CA4C693 /* K5ResourcesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5ResourcesViewModel.swift; sourceTree = "<group>"; };
 		6CA170E6322BD26303A67A03 /* DashboardInvitationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInvitationsViewModel.swift; sourceTree = "<group>"; };
@@ -2226,7 +2215,6 @@
 		756C909522B81F412C9E52E6 /* MediaCommentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCommentTests.swift; sourceTree = "<group>"; };
 		7575874152CFD2D715353539 /* DocViewerAnnotationPutResponseHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewerAnnotationPutResponseHandlerTests.swift; sourceTree = "<group>"; };
 		757F1DE3CF0FFF2EF5067328 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = nl; path = nl.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		759681D7A08414DDA0ECE61F /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		75A03DFE70D37F0E94D76A44 /* ModuleItemSequenceViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ModuleItemSequenceViewController.storyboard; sourceTree = "<group>"; };
 		75A7B033982BB92DBD3C20C9 /* APIExternalTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIExternalTool.swift; sourceTree = "<group>"; };
 		75B1A1D2FD51989139DC4A94 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
@@ -2289,7 +2277,6 @@
 		7D3EEACB336D0FE878269A04 /* K5SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5SubjectView.swift; sourceTree = "<group>"; };
 		7D6C3F0B03C6C31A25D12B33 /* UploadFileCommentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileCommentTests.swift; sourceTree = "<group>"; };
 		7D864AF14DC82D24589BC766 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7DA6E41DA5CD8D252E8C08DE /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		7DAC0AA4C5F569B5D61B4675 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = vi; path = vi.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		7DAE15712364C96C63887E1B /* DynamicTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextField.swift; sourceTree = "<group>"; };
 		7DF9EC92129FA6439FC456A3 /* CoreWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreWebViewTests.swift; sourceTree = "<group>"; };
@@ -2300,7 +2287,6 @@
 		7E9312ACB116688590CC622C /* CreateTodoViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTodoViewControllerTests.swift; sourceTree = "<group>"; };
 		7F0DEE128B0CD12A4F61F61E /* GetCourseSingleUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCourseSingleUserTests.swift; sourceTree = "<group>"; };
 		7F3C5228820111819B5BD53E /* GradeCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCircleView.swift; sourceTree = "<group>"; };
-		7F3EA8A3F29C878986F6620E /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7F90593278C021782466F67D /* UIMenuExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMenuExtensions.swift; sourceTree = "<group>"; };
 		7FE2E90722DA48FE7D706B2B /* IDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDTests.swift; sourceTree = "<group>"; };
 		801F893D7D56B3225F8954C0 /* RichContentToolbarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RichContentToolbarView.xib; sourceTree = "<group>"; };
@@ -2464,7 +2450,6 @@
 		998E09CB665E22AD5F56E45C /* CoreActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreActivityViewController.swift; sourceTree = "<group>"; };
 		999ECD2E73E5DF4EBB5457C2 /* MockPDFPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPDFPageView.swift; sourceTree = "<group>"; };
 		99A6E8BA664B75D0DCE653A0 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
-		99FAD6B08A83AAC551D5DE18 /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "da-instk12"; path = "da-instk12.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		9A051BB78C43832BD876D89C /* PushNotificationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationError.swift; sourceTree = "<group>"; };
 		9A1DDE9B2E607CBB410A0A90 /* UITableViewCellExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtensionsTests.swift; sourceTree = "<group>"; };
 		9A417B8725ADFEF6B2BC06FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -2475,7 +2460,6 @@
 		9B940D4E2858A889288C7E46 /* DocViewerAnnotationProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewerAnnotationProviderTests.swift; sourceTree = "<group>"; };
 		9B9ACC60E845BF6D67D20FB0 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BE6FFDC6FDE8C48832930DB /* NWAvailabilityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NWAvailabilityService.swift; sourceTree = "<group>"; };
-		9C272AD58D0ADA6B0AF91D5A /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		9C5F4B6C02E92F6688A86570 /* CircleRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleRefreshControl.swift; sourceTree = "<group>"; };
 		9C74B640ABFAD7E498712CE8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		9CE0C11A06B4FBEA43DB467D /* URLComponentsExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsExtensionsTests.swift; sourceTree = "<group>"; };
@@ -2519,7 +2503,7 @@
 		A2BF01404113FB190130FEF2 /* APIListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListTests.swift; sourceTree = "<group>"; };
 		A352C359FEF9F433F0479815 /* AppStoreReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReviewTests.swift; sourceTree = "<group>"; };
 		A39C7A23AEDFA7CAA2A6DDEB /* APIRequestableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestableTests.swift; sourceTree = "<group>"; };
-		A42096D6B21359616953C14C /* preview_test.mp4 */ = {isa = PBXFileReference; path = preview_test.mp4; sourceTree = "<group>"; };
+		A42096D6B21359616953C14C /* preview_test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = preview_test.mp4; sourceTree = "<group>"; };
 		A428BBF27D3A0637022B49F2 /* FileListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListViewControllerTests.swift; sourceTree = "<group>"; };
 		A42E6D4DF3963671589B5A3A /* DashboardCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardTests.swift; sourceTree = "<group>"; };
 		A43DD0C2A830D421979AEF65 /* InboxMessageScopeFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxMessageScopeFilterTests.swift; sourceTree = "<group>"; };
@@ -2609,14 +2593,12 @@
 		B2EE64A5941BCBE428947CD4 /* QuizEditorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizEditorViewModel.swift; sourceTree = "<group>"; };
 		B2F25D859CAB87D513F30051 /* HorizontalMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMenuViewController.swift; sourceTree = "<group>"; };
 		B3003A9825A81AD1868398D5 /* AnnotationDragGestureDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDragGestureDelegateTests.swift; sourceTree = "<group>"; };
-		B30212389FACCA9046CE0AD1 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		B3124BBA04CF33471645F269 /* K5ScheduleEntryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5ScheduleEntryViewModelTests.swift; sourceTree = "<group>"; };
 		B32483F46D3D8B32F2CC5623 /* LoginWebViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWebViewControllerTests.swift; sourceTree = "<group>"; };
 		B345A6FE2F2B67B5544A4708 /* ListFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormatter.swift; sourceTree = "<group>"; };
 		B363A638EAA04F62B468B732 /* ScreenViewTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenViewTracker.swift; sourceTree = "<group>"; };
 		B3A642FF70ADA1FFC682BC4C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		B3D334CA5457B0C12B44AF9A /* en-CY */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-CY"; path = "en-CY.lproj/Main.strings"; sourceTree = "<group>"; };
-		B3E3B0090D7E989A58400A64 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/Main.strings"; sourceTree = "<group>"; };
 		B408E358BA052F9B08697E7E /* Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hidden.swift; sourceTree = "<group>"; };
 		B41834EC25231F96969E274E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Main.strings; sourceTree = "<group>"; };
 		B455F8753438D40CC45D5A87 /* QuizDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDetailsViewModelTests.swift; sourceTree = "<group>"; };
@@ -2851,7 +2833,6 @@
 		DAA705119B03A54AB6BC6548 /* GradeCircleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeCircleViewTests.swift; sourceTree = "<group>"; };
 		DAA9DEEB4473D2CD01943DD9 /* AttachmentPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentPreviewView.swift; sourceTree = "<group>"; };
 		DACB4C43AB698BC35148ECFC /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		DAD5A7D81B74ADDCE90BBF4C /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DAF2FDC18E3759DA3C0FC3CF /* SkipJSInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipJSInjection.swift; sourceTree = "<group>"; };
 		DB22F450F9110AF0FCB91705 /* ActAsUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActAsUserViewController.swift; sourceTree = "<group>"; };
 		DB57156EC391B74268F6CBD6 /* DisableZoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableZoomTests.swift; sourceTree = "<group>"; };
@@ -2872,7 +2853,6 @@
 		DE08F5186CE09513C96F750A /* Conference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		DE17829D0376D9BC8CF07EFE /* ExternalURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalURLViewController.swift; sourceTree = "<group>"; };
 		DE6DD76943E72BED8665C105 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		DE8A37BA3AD4461F49037CC2 /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		DEB56E8D30D2C1C255D55EC5 /* APIPandataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPandataTests.swift; sourceTree = "<group>"; };
 		DEC67072606D463D1C6486C4 /* APIPlannable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPlannable.swift; sourceTree = "<group>"; };
 		DEE6D22649CD7DC9E7870AC5 /* NoResultsPanda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsPanda.swift; sourceTree = "<group>"; };
@@ -2917,13 +2897,11 @@
 		E48798A044B256C7A8E4BBC1 /* InvertColorsInDarkModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertColorsInDarkModeTests.swift; sourceTree = "<group>"; };
 		E494DCC6B1EE820534A82339 /* ModuleItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleItemTests.swift; sourceTree = "<group>"; };
 		E4E58652B75CE7524EC3B185 /* GradeViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewable.swift; sourceTree = "<group>"; };
-		E50205747DB7DE67427A089D /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E50764AD9696D5FA90B3904E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E51F32B5254FBD8267A65B93 /* K5HomeroomSubjectCardViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5HomeroomSubjectCardViewModelTests.swift; sourceTree = "<group>"; };
 		E544A3145A9D3918FB567CB8 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E565D8E3FFEAD5F083D35CE5 /* FilePreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePreviewProvider.swift; sourceTree = "<group>"; };
 		E5B2414B16554C07512AD9F9 /* ListSelectionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSelectionViewModelTests.swift; sourceTree = "<group>"; };
-		E5C914ED052B11B1D506C226 /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		E5D17D9D53C855916D2B410B /* AppBackgroundHelperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBackgroundHelperProtocol.swift; sourceTree = "<group>"; };
 		E5D30D22D78389C9DC53574E /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
 		E5D9D67F088D92B870E04B04 /* URLComponentsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLComponentsExtensions.swift; sourceTree = "<group>"; };
@@ -2965,7 +2943,6 @@
 		EE5C2F18CFBF68C275939767 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EE651D15B6DEC8842D401109 /* mi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mi; path = mi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE6BCCBA1C4FB22F518346CE /* ModuleItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleItemDetailsViewController.swift; sourceTree = "<group>"; };
-		EF1E9D41ECFBA53C918AC19A /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		EF326E8AEEA118B7E35216A8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF4E9A4F8020A7D93582214C /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		EFB28DA824C42BA6567D14CC /* ListFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFormatterTests.swift; sourceTree = "<group>"; };
@@ -3000,7 +2977,6 @@
 		F4E5AEAED2D39CA04B540B4F /* StringExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
 		F55C8713C2B0D598859635BB /* AttachmentSubmissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentSubmissionService.swift; sourceTree = "<group>"; };
 		F572605E7E4EE86D44172635 /* K5ResourcesApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K5ResourcesApplicationView.swift; sourceTree = "<group>"; };
-		F5CFF01F714E29EC63D4679F /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/Main.strings"; sourceTree = "<group>"; };
 		F5D892DF353E5291ED4BE3C7 /* LoginStartSessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStartSessionCell.swift; sourceTree = "<group>"; };
 		F5DE7DA045FCA3379A4BCF3E /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
 		F5E38C796AE651C9B406AF1F /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "en-AU"; path = "en-AU.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
@@ -7415,15 +7391,12 @@
 				ca,
 				cy,
 				da,
-				"da-instk12",
 				de,
 				en,
 				"en-AU",
-				"en-AU-unimelb",
 				"en-CA",
 				"en-CY",
 				"en-GB",
-				"en-GB-instukhe",
 				es,
 				"es-ES",
 				fi,
@@ -7436,7 +7409,6 @@
 				mi,
 				ms,
 				nb,
-				"nb-instk12",
 				nl,
 				pl,
 				pt,
@@ -7444,7 +7416,6 @@
 				ru,
 				sl,
 				sv,
-				"sv-instk12",
 				th,
 				vi,
 				zh,
@@ -8964,11 +8935,9 @@
 				268E2B0799616F62392B4369 /* Base */,
 				28B842B168FCDE59E85F02F8 /* cy */,
 				B63722B24B99926F5D07F24A /* da */,
-				7DA6E41DA5CD8D252E8C08DE /* da-instk12 */,
 				2B153CCF76305A1958594FD6 /* de */,
 				1986D65661628F554B36CBBE /* en-AU */,
 				6B4EFF7CBF9EB26130324DA2 /* en-GB */,
-				19F91CA435FAD2EDC26B98A8 /* en-GB-instukhe */,
 				5CC649E9E52DE4E04054DADF /* es */,
 				08182FA7DCB99BEAAF04043A /* fr */,
 				0E821CE4F59F1235642B3595 /* fr-CA */,
@@ -8976,14 +8945,12 @@
 				71C4864C77376C5350EB6C78 /* ja */,
 				D3E14148754265DDD1AC1F56 /* mi */,
 				EE5C2F18CFBF68C275939767 /* nb */,
-				B30212389FACCA9046CE0AD1 /* nb-instk12 */,
 				FF99F51B91E13CCAD9C1FEB8 /* nl */,
 				42A83CDE4BD96A8B66274F40 /* pl */,
 				0DEC60282DF1A9449C3112FD /* pt */,
 				6DC752122AFB3FA07DCA0CCB /* pt-BR */,
 				9467A28F4731CC9B069D5575 /* ru */,
 				5B740A30860F05FB71C525A0 /* sv */,
-				0B587F17DC1D11ED7046D644 /* sv-instk12 */,
 				03D85F5BFDC15EF2CE3C1B00 /* zh */,
 				F4DE68B70EF1C6409DDDCF7F /* zh-HK */,
 			);
@@ -8998,14 +8965,11 @@
 				8A8C11D4DAF6632C677AA1DF /* ca */,
 				6F9B657D65894EA4761A9D43 /* cy */,
 				53523A2DFE0ADEE587B8221F /* da */,
-				F5CFF01F714E29EC63D4679F /* da-instk12 */,
 				51D81A3629BBF8D2CAEAAD24 /* de */,
 				48319538CBD8B4488166EC45 /* en-AU */,
-				49759280291893433481DF43 /* en-AU-unimelb */,
 				F1EE64FA872566109C37BB31 /* en-CA */,
 				B3D334CA5457B0C12B44AF9A /* en-CY */,
 				2F7B14F39DE3000E009CDADF /* en-GB */,
-				4CE169C6808A11C89C825E2E /* en-GB-instukhe */,
 				E24F0FC90F914A12E2A8A8FB /* es */,
 				E27E8719AA2EEE717B34A967 /* es-ES */,
 				F5DE7DA045FCA3379A4BCF3E /* fi */,
@@ -9018,7 +8982,6 @@
 				5059EB6DC4FA423B8DAB6237 /* mi */,
 				DC3B52A4BC9B87CF50402F6D /* ms */,
 				6BE68133F17600C04A7739EE /* nb */,
-				2B342F7CA8559578FE625713 /* nb-instk12 */,
 				0728A3E4366C9AD78395BAE8 /* nl */,
 				A0E77A031DC34E81A3885E0D /* pl */,
 				A9B4C16E6E68A8586390D94C /* pt */,
@@ -9026,7 +8989,6 @@
 				0D2BC5BC979F9D1D5A536741 /* ru */,
 				C08CE2B05A813879BE1F8499 /* sl */,
 				B41834EC25231F96969E274E /* sv */,
-				B3E3B0090D7E989A58400A64 /* sv-instk12 */,
 				14C286A990BE591022999C25 /* th */,
 				0A45091EA16078E6813A65CC /* vi */,
 				B5AFE8C67E6FB8EF7D6F7E11 /* zh */,
@@ -9045,15 +9007,12 @@
 				3E6A923226385094747AF5EB /* ca */,
 				1E8D6236955E728F82407FCC /* cy */,
 				C73B072DD0FA0F9DC78BC7AE /* da */,
-				99FAD6B08A83AAC551D5DE18 /* da-instk12 */,
 				68AF0A97C27D0E1DD71E2001 /* de */,
 				D796AEA1305014A5F2F5AE14 /* en */,
 				F5E38C796AE651C9B406AF1F /* en-AU */,
-				E5C914ED052B11B1D506C226 /* en-AU-unimelb */,
 				2B2F90252397DCD8B3616EFA /* en-CA */,
 				19EB034D3DEE9D7A8401F94E /* en-CY */,
 				02552E2637B6C7D865BE5E6B /* en-GB */,
-				9C272AD58D0ADA6B0AF91D5A /* en-GB-instukhe */,
 				00721EAAEFDE8E7878ACF807 /* es */,
 				34C9E411720BAF3E6ACCBC98 /* es-ES */,
 				38215ECF71420C590B45B4AB /* fi */,
@@ -9066,7 +9025,6 @@
 				8D0C45EE324856BC40A37C1F /* mi */,
 				6EC38E89E0E732498859023F /* ms */,
 				7989255C622B088A033E5F2E /* nb */,
-				6C5597E039A9ED8337294E82 /* nb-instk12 */,
 				757F1DE3CF0FFF2EF5067328 /* nl */,
 				20A9BA527118631A37934CEF /* pl */,
 				B794C9BCE5E9B597E65BF301 /* pt */,
@@ -9074,7 +9032,6 @@
 				D66E1DDEDBEE8D209FC5E1DD /* ru */,
 				4FD4E5F23F07E17EB58AA3DC /* sl */,
 				909E20E182C55A00E649A7C1 /* sv */,
-				0493EEBEC95B5CA3C1E1274C /* sv-instk12 */,
 				6995D1994310E5D3F2BC3959 /* th */,
 				7DAC0AA4C5F569B5D61B4675 /* vi */,
 				BD7E9112724294A45A4AF16B /* zh */,
@@ -9093,14 +9050,11 @@
 				E8536FDDD5379C0707E3F19B /* ca */,
 				40E9222198B4C64943417F65 /* cy */,
 				2F6CCD92F4E5769EFA76BA0E /* da */,
-				6957684CA89E8A9834EF1978 /* da-instk12 */,
 				9B9ACC60E845BF6D67D20FB0 /* de */,
 				DE6DD76943E72BED8665C105 /* en-AU */,
-				DE8A37BA3AD4461F49037CC2 /* en-AU-unimelb */,
 				CCD519C665901162182880FC /* en-CA */,
 				7640EAD25FEAB64782D95463 /* en-CY */,
 				119CDA0F3138EAB444E40B4C /* en-GB */,
-				E50205747DB7DE67427A089D /* en-GB-instukhe */,
 				41D6CED339FDCB8C85B4A1FB /* es */,
 				80EBE0CB9E7A86354735E332 /* es-ES */,
 				6949F61C6EB064ADFC413B4F /* fi */,
@@ -9113,7 +9067,6 @@
 				2601F05DDC36951B500F4A8D /* mi */,
 				F2154C41361DA907FDA44279 /* ms */,
 				A4EE905F8704D81DC37F88CA /* nb */,
-				4A0E5276888D4098DA61AF12 /* nb-instk12 */,
 				29965D7D3CDB207AC040384D /* nl */,
 				E228F8EAECB90A84D965A186 /* pl */,
 				B04A42A33AD2BD7C0C3AEF01 /* pt */,
@@ -9121,7 +9074,6 @@
 				C271CBA833F7A5AFA2CDD8DE /* ru */,
 				0E9191889C8A6EAEA16FAD97 /* sl */,
 				D224E7FEACCB75418C391BFD /* sv */,
-				5C92A9AFC38D145B1586A574 /* sv-instk12 */,
 				11DC56C7CF1E051668EF5FA5 /* th */,
 				63BF9431AC43317BB0B18B5E /* vi */,
 				D071B9DCC3B9E16B1BEEFF35 /* zh */,
@@ -9169,15 +9121,12 @@
 				B76A47C0C2E5190FCBC99574 /* ca */,
 				61EB41A8DAD851F6FBEEBC18 /* cy */,
 				8980FC6FCFE4B6518B94DA11 /* da */,
-				7F3EA8A3F29C878986F6620E /* da-instk12 */,
 				2F11FB43ADFFF723C8BE77B7 /* de */,
 				CC700DE6B292FCE0B309212E /* en */,
 				B9F59BA311FE64B3ACC60351 /* en-AU */,
-				EF1E9D41ECFBA53C918AC19A /* en-AU-unimelb */,
 				1AD5FA5A8F50C42ECF8A0FC3 /* en-CA */,
 				D71E8B2E382A8CAE36E86C61 /* en-CY */,
 				3FCF9AF6B7E6E39E5AB26EE9 /* en-GB */,
-				DAD5A7D81B74ADDCE90BBF4C /* en-GB-instukhe */,
 				2E631CAA2C0C52B6D9FD3BDB /* es */,
 				762FBD4CE8C92A73ECF7D82D /* es-ES */,
 				713F6369D86F83531D280F78 /* fi */,
@@ -9190,7 +9139,6 @@
 				EE651D15B6DEC8842D401109 /* mi */,
 				FA4B351B91F936B70CB8EB19 /* ms */,
 				60C445EEE70BB5EB4E417AF5 /* nb */,
-				759681D7A08414DDA0ECE61F /* nb-instk12 */,
 				2CC98BEC46F5FCBCC5ED85DC /* nl */,
 				A1D13FA3E6BE40F0F3590D98 /* pl */,
 				7D864AF14DC82D24589BC766 /* pt */,
@@ -9198,7 +9146,6 @@
 				A7F81B0C7AB81BF512ED15F6 /* ru */,
 				DCEE3E0C258BFC92E55F9D00 /* sl */,
 				08C7A18963FFC640F2B611B7 /* sv */,
-				186F3214E69EF956B959DAAC /* sv-instk12 */,
 				10D2891E84B40A1C396F7C7C /* th */,
 				19A6D0C2009DE084C0EE50BC /* vi */,
 				CD805686B11906C51B150E83 /* zh */,

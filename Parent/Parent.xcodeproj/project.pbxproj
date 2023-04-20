@@ -296,18 +296,6 @@
 		7D1801BA24C2083300A7F023 /* AssignmentDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AssignmentDetailsViewController.storyboard; sourceTree = "<group>"; };
 		7D33976B24534CD30074ED71 /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
 		7D33976D24534D8C0074ED71 /* StudentListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StudentListViewController.storyboard; sourceTree = "<group>"; };
-		7D349C7D21430D98004C1074 /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		7D349C8F21430DA1004C1074 /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		7D349C9121430DA2004C1074 /* da-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "da-instk12"; path = "da-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		7D349C9521430DE1004C1074 /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		7D349CA721430DE9004C1074 /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		7D349CA921430DEA004C1074 /* en-GB-instukhe */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB-instukhe"; path = "en-GB-instukhe.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		7D349CAD21430E20004C1074 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		7D349CBF21430E29004C1074 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		7D349CC121430E29004C1074 /* nb-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nb-instk12"; path = "nb-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		7D349CC521430E5C004C1074 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		7D349CD721430E66004C1074 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		7D349CD921430E67004C1074 /* sv-instk12 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sv-instk12"; path = "sv-instk12.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7D4C6F34243BE098003C1728 /* AdminViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AdminViewController.storyboard; sourceTree = "<group>"; };
 		7D88EA2D23A9A1CB00D5F8FD /* ColorSchemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeTests.swift; sourceTree = "<group>"; };
 		7DB92CA424C5FD26004A6C16 /* AccountNotificationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNotificationDetailsViewController.swift; sourceTree = "<group>"; };
@@ -328,8 +316,6 @@
 		7DC7046E24ABBD2D00CD1C46 /* GetObserverAlertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetObserverAlertsTests.swift; sourceTree = "<group>"; };
 		7DC7047024ABC07300CD1C46 /* ObserverAlertListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverAlertListViewControllerTests.swift; sourceTree = "<group>"; };
 		7DC804D12444D01C001AB80C /* DashboardViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DashboardViewController.storyboard; sourceTree = "<group>"; };
-		7DE74EFD22BD7942003C8B44 /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		7DE74EFE22BD7942003C8B44 /* en-AU-unimelb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU-unimelb"; path = "en-AU-unimelb.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7DEE3E3C2335790A0009D8DC /* IBDesignables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignables.swift; sourceTree = "<group>"; };
 		7DF398C824BE1735003FBA7F /* CalendarEventDetailsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarEventDetailsViewController.storyboard; sourceTree = "<group>"; };
 		7DF398CA24BE1752003FBA7F /* CalendarEventDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventDetailsViewController.swift; sourceTree = "<group>"; };
@@ -961,15 +947,10 @@
 				"zh-HK",
 				zh,
 				"fr-CA",
-				"da-instk12",
-				"en-GB-instukhe",
-				"nb-instk12",
-				"sv-instk12",
 				cy,
 				"en-CY",
 				fi,
 				sl,
-				"en-AU-unimelb",
 				is,
 				"en-CA",
 				ca,
@@ -1393,14 +1374,9 @@
 				2C61CEF01D9314EE00196C03 /* zh */,
 				2C0CAD991DEF6EC9008D90FA /* fr-CA */,
 				5B8461E720DF7C3400EE4100 /* cy */,
-				7D349C9121430DA2004C1074 /* da-instk12 */,
-				7D349CA921430DEA004C1074 /* en-GB-instukhe */,
-				7D349CC121430E29004C1074 /* nb-instk12 */,
-				7D349CD921430E67004C1074 /* sv-instk12 */,
 				5BE924A521BCF8750007609A /* en-CY */,
 				5B7BD3C322ACE9C400FA371B /* fi */,
 				5B1D4F0022BD6E560082F8F0 /* sl */,
-				7DE74EFE22BD7942003C8B44 /* en-AU-unimelb */,
 				5B317B73240B98DF009EE2F9 /* is */,
 				5B6A931E242746BE0062CC54 /* en-CA */,
 				5BBD136D243080DE00019BB7 /* ca */,
@@ -1440,14 +1416,9 @@
 				49ED5A4C1DBFD02E009E2896 /* Base */,
 				2C0CAD981DEF6EC8008D90FA /* fr-CA */,
 				5B8461E520DF7C3400EE4100 /* cy */,
-				7D349C7D21430D98004C1074 /* da-instk12 */,
-				7D349C9521430DE1004C1074 /* en-GB-instukhe */,
-				7D349CAD21430E20004C1074 /* nb-instk12 */,
-				7D349CC521430E5C004C1074 /* sv-instk12 */,
 				5BE924A421BCF8750007609A /* en-CY */,
 				5B7BD3C222ACE9C400FA371B /* fi */,
 				5B1D4EFF22BD6E560082F8F0 /* sl */,
-				7DE74EFD22BD7942003C8B44 /* en-AU-unimelb */,
 				5B317B72240B98DF009EE2F9 /* is */,
 				5B6A931D242746BE0062CC54 /* en-CA */,
 				5BBD136C243080DE00019BB7 /* ca */,
@@ -1487,10 +1458,6 @@
 				2C61CEDF1D9314E700196C03 /* zh */,
 				2C0CAD8C1DEF6EC2008D90FA /* fr-CA */,
 				5B8461D720DF7C3100EE4100 /* cy */,
-				7D349C8F21430DA1004C1074 /* da-instk12 */,
-				7D349CA721430DE9004C1074 /* en-GB-instukhe */,
-				7D349CBF21430E29004C1074 /* nb-instk12 */,
-				7D349CD721430E66004C1074 /* sv-instk12 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

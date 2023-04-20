@@ -64,7 +64,7 @@
 	<key>FirebaseAutomaticScreenReportingEnabled</key>
 	<false/>
 	<key>ITSAppUsesNonExemptEncryption</key>
-	<true/>
+	<false/>
 	<key>ITSEncryptionExportComplianceCode</key>
 	<string>7bb091ae-4a93-44ec-bb77-ff69e62c1f50</string>
 	<key>LSApplicationCategoryType</key>
@@ -87,8 +87,6 @@
 			</dict>
 		</dict>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.</string>
 	<key>NSCrossWebsiteTrackingUsageDescription</key>
 	<string>Canvas uses cookies to load media embedded in rich content.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
