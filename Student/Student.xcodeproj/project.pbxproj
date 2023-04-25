@@ -3393,7 +3393,7 @@
 				BASE_URL = "https://classroom.emeritus.org/";
 				CLANG_ENABLE_MODULES = YES;
 				CLIENT_ID = 10000000000011;
-				CLIENT_SECRET = mFw7IJFwGOgzjq1mEBewi9sIlCY8oDYvyyzdjAP1rU71lRRA6u2NyX7Td8f0Skq1;
+				CLIENT_SECRET = 03POWNLXCBJLcVybUWzjbPtKBQqeZiVeeyHWtrnUgVk8KhiHtzb3z2MP3uKJrAKh;
 				CODE_SIGN_ENTITLEMENTS = Student/StudentRelease.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
