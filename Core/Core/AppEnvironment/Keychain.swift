@@ -18,11 +18,21 @@
 
 import Foundation
 
+struct Keys {
+  #if DEBUG
+  static let serviceName = "com.emeritus.staging.shared-credentials"
+  static let accessGroup = "group.emeritus.shared"
+  #else
+  static let serviceName = "com.emeritus.shared-credentials"
+  static let accessGroup = "group.emeritus.staging.shared"
+  #endif
+}
+
 public class Keychain {
     private let serviceName: String
     private let accessGroup: String?
-    public static var app = Keychain(serviceName: "com.instructure.shared-credentials", accessGroup: Bundle.main.appGroupID())
-    public static var shared = Keychain(serviceName: "com.instructure.shared-credentials", accessGroup: "group.instructure.shared")
+  public static var app = Keychain(serviceName: Keys.serviceName, accessGroup: Bundle.main.appGroupID())
+  public static var shared = Keychain(serviceName: Keys.serviceName, accessGroup: Keys.accessGroup)
 
     init(serviceName: String = Bundle.main.bundleIdentifier ?? "com.instructure.general-purpose-keychain", accessGroup: String? = nil) {
         self.serviceName = serviceName

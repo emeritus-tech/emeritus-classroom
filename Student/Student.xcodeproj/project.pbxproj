@@ -779,6 +779,7 @@
 		EC9D739AAC5FF4C6AAF4F8A7 /* Pods_needs_pspdfkit_StudentE2ETests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_needs_pspdfkit_StudentE2ETests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A705E826B362C3490B4183 /* Pods-defaults-common_tests-CanvasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-common_tests-CanvasTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-defaults-common_tests-CanvasTests/Pods-defaults-common_tests-CanvasTests.release.xcconfig"; sourceTree = "<group>"; };
 		FD59965929E8503B009EFD80 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		FD5B11882A016FEE00337BC0 /* Student copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Student copy-Info.plist"; path = "/Users/karenstoletniy/Desktop/emeritus-classroom/Student/Student copy-Info.plist"; sourceTree = "<absolute>"; };
 		FDB804CC29F058F700834C68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		FDB804CE29F0729200834C68 /* WidgetsRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetsRelease.entitlements; sourceTree = "<group>"; };
 		FDB804CF29F074AF00834C68 /* StudentRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudentRelease.entitlements; sourceTree = "<group>"; };
@@ -895,6 +896,7 @@
 				492704741CF4AF7100C631C6 /* Products */,
 				5B0FCCDFB07A88D993D5871D /* Frameworks */,
 				3BFCA4310566C5CB96383521 /* Pods */,
+				FD5B11882A016FEE00337BC0 /* Student copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3353,7 +3355,7 @@
 			baseConfigurationReference = 98F5AEA722584DFE82613E6B /* Pods-defaults-Student.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				BASE_URL = "https://canvas-test.emeritus.org/";
 				CLANG_ENABLE_MODULES = YES;
 				CLIENT_ID = 10000000000024;
