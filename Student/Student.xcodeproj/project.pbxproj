@@ -3415,6 +3415,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REDIRECT_URI = "$(BASE_URL)login";
 				SWIFT_OBJC_BRIDGING_HEADER = "Student/Student-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
