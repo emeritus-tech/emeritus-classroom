@@ -1,5 +1,5 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "قم بإرفاق صور ومقاطع فيديو بالرسائل ومنشورات النقاش أو تسليمها في صورة إرسالات مهمة.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Microphone Usage Description */
 "NSMicrophoneUsageDescription" = "قم بإرفاق تسجيلات صوتية بالرسائل ومنشورات النقاش أو تسليمها في صورة إرسالات مهمة.";

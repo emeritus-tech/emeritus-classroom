@@ -2,7 +2,7 @@
 "CFBundleDisplayName" = "Emeritus Classroom";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts, or turn them in as assignment submissions.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Help us find schools near you.";

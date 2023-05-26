@@ -2,7 +2,7 @@
 "CFBundleDisplayName" = "Emeritus Classroom";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "إرفاق صور ومقاطع فيديو بالرسائل ومنشورات النقاش أو تسليمها في صورة إرسالات تعيينات.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "ساعدنا في العثور على مدارس بالقرب منك.";

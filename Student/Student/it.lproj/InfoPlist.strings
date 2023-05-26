@@ -2,7 +2,7 @@
 "CFBundleDisplayName" = "Studente Canvas";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Allega le foto e i video ai messaggi e ai post di discussione o inseriscili come consegne del compito.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Aiutaci a trovare delle scuole vicino a te.";

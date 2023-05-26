@@ -1,5 +1,5 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Vedhæft billeder og videoer til beskeder og diskussionsposter, eller indsend dem som opgaveafleveringer.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Microphone Usage Description */
 "NSMicrophoneUsageDescription" = "Vedhæft lydoptagelser til beskeder og diskussionsposter, eller vælg dem som opgaveafleveringer.";

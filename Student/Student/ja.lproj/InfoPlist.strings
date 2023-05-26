@@ -2,7 +2,7 @@
 "CFBundleDisplayName" = "Canvas 受講者";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "写真やビデオをメッセージやディスカッションの投稿に添付するか、課題の提出に入れます。";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "あなたの近くの学校を見つけられるよう手を貸してください。";

@@ -1,5 +1,5 @@
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Atodwch luniau a fideos ar gyfer negeseuon a phostiadau trafodaeth, neu eu cyflwyno fel aseiniadau.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Microphone Usage Description */
 "NSMicrophoneUsageDescription" = "Atodwch recordiadau sain ar gyfer negeseuon a phostiadau trafodaeth, neu eu cyflwyno fel aseiniadau.";

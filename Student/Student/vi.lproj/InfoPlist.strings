@@ -2,7 +2,7 @@
 "CFBundleDisplayName" = "Sinh Viên Canvas";
 
 /* Privacy - Camera Usage Description */
-"NSCameraUsageDescription" = "Đính kèm ảnh và video vào tin nhắn và bài đăng thảo luận để biến các nội dung này thành mục nộp bài tập.";
+"NSCameraUsageDescription" = "Attach photos and videos to messages and discussion posts or turn them in as assignment submissions.";
 
 /* Privacy - Location When In Use Usage Description */
 "NSLocationWhenInUseUsageDescription" = "Giúp chúng tôi tìm các trường gần bạn.";
