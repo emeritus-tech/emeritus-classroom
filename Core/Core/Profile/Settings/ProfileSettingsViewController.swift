@@ -119,15 +119,11 @@ public class ProfileSettingsViewController: ScreenViewTrackableViewController {
             Section(NSLocalizedString("Legal", bundle: .core, comment: ""), rows: [
                 Row(NSLocalizedString("Privacy Policy", bundle: .core, comment: "")) { [weak self] in
                     guard let self = self else { return }
-                    self.env.router.route(to: "https://www.instructure.com/canvas/privacy/", from: self)
+                    self.env.router.route(to: "https://emeritus.org/privacy-notice/", from: self)
                 },
                 Row(NSLocalizedString("Terms of Use", bundle: .core, comment: "")) { [weak self] in
                     guard let self = self else { return }
-                    self.env.router.route(to: "/accounts/self/terms_of_service", from: self)
-                },
-                Row(NSLocalizedString("Canvas on GitHub", bundle: .core, comment: "")) { [weak self] in
-                    guard let self = self else { return }
-                    self.env.router.route(to: "https://github.com/instructure/canvas-ios", from: self)
+                    self.env.router.route(to: "https://emeritus.org/terms-of-service/", from: self)
                 },
             ]),
         ]
